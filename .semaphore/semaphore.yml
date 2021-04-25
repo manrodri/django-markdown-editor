@@ -10,7 +10,6 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - chesem-version python 3.7
             - checkout
             - mkdir .pip_cache
             - cache restore
